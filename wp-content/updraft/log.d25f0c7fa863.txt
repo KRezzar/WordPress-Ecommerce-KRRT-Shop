@@ -1,0 +1,111 @@
+0000.000 (0) Opened log file at time: Wed, 01 Mar 2023 00:45:34 +0000 on http://krrtshop.rf.gd
+0000.041 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.8 (apache2handler, Linux freeweb15.byetcluster.com 2.6.32-954.3.5.lve1.4.78.el6.x86_64 #1 SMP Thu Mar 26 08:20:27 EDT 2020 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 74.4M | 39M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.041 (0) Free space on disk containing Updraft's temporary directory: Unknown
+0000.043 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.045 (0) Semaphore (fd, wp_options) being initialised
+0000.047 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.049 (0) Set semaphore last lock (fd) time to 2023-03-01 00:45:34
+0000.050 (0) Semaphore lock (fd) complete
+0000.053 (0) Backup run: resumption=0, nonce=d25f0c7fa863, file_nonce=d25f0c7fa863 begun at=1677631534 (0s ago), job type=backup
+0000.055 (0) Scheduling a resumption (1) after 300 seconds (1677631834) in case this run gets aborted
+0000.068 (0) Checking if we have a zip executable available
+0000.069 (0) Creation of backups of directories: beginning
+0000.072 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0046.693 (0) Total entities for the zip file: 2477 directories, 12824 files (0 skipped as non-modified), 128.1 MB
+0046.707 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0053.175 (0) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 100 files added (on-disk size: 521 KB)
+0054.451 (0) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 200 files added (on-disk size: 521 KB)
+0054.458 (0) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 300 files added (on-disk size: 521 KB)
+0054.463 (0) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 400 files added (on-disk size: 521 KB)
+0054.468 (0) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 500 files added (on-disk size: 521 KB)
+0054.473 (0) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 600 files added (on-disk size: 521 KB)
+0054.477 (0) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 700 files added (on-disk size: 521 KB)
+0054.482 (0) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 800 files added (on-disk size: 521 KB)
+0054.487 (0) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 900 files added (on-disk size: 521 KB)
+0054.492 (0) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1000 files added (on-disk size: 521 KB)
+0054.493 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.1 MB, 12824 files batched, 1001 (1002) added so far); re-opening (prior size: 521 KB)
+0302.943 (1) Opened log file at time: Wed, 01 Mar 2023 00:50:37 +0000 on http://krrtshop.rf.gd
+0302.944 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.8 (apache2handler, Linux freeweb15.byetcluster.com 2.6.32-954.3.5.lve1.4.78.el6.x86_64 #1 SMP Thu Mar 26 08:20:27 EDT 2020 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 65.8M | 37M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+0302.945 (1) Free space on disk containing Updraft's temporary directory: Unknown
+0302.947 (1) Requesting backup semaphore lock (d25f0c7fa863)
+0302.949 (1) [Debug] Lock option (updraft_lock_d25f0c7fa863, wp_options) was created in the database
+0302.950 (1) [Info] Lock (updraft_lock_d25f0c7fa863, wp_options) acquired after initialising the database
+0302.952 (1) Backup run: resumption=1, nonce=d25f0c7fa863, file_nonce=d25f0c7fa863 begun at=1677631534 (303s ago), job type=backup, previous check-in=85.56s
+0302.954 (1) Scheduling a resumption (2) after 300 seconds (1677632137) in case this run gets aborted
+0302.966 (1) Checking if we have a zip executable available
+0302.967 (1) Creation of backups of directories: had begun; will resume
+0302.969 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0302.970 (1) File exists (/home/vol7_3/epizy.com/epiz_33450651/htdocs/wp-content/updraft/backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1677631620, time_now=1677631837, diff=217)
+0302.987 (1) backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: Zip file already exists, with 1002 files
+0303.388 (1) Total entities for the zip file: 2477 directories, 12824 files (0 skipped as non-modified), 128.1 MB
+0303.403 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 100 files added (on-disk size: 4391.4 KB)
+0303.404 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 200 files added (on-disk size: 4391.4 KB)
+0303.405 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 300 files added (on-disk size: 4391.4 KB)
+0303.406 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 400 files added (on-disk size: 4391.4 KB)
+0303.407 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 500 files added (on-disk size: 4391.4 KB)
+0303.408 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 600 files added (on-disk size: 4391.4 KB)
+0303.409 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 700 files added (on-disk size: 4391.4 KB)
+0303.410 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 800 files added (on-disk size: 4391.4 KB)
+0303.411 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 900 files added (on-disk size: 4391.4 KB)
+0303.412 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1000 files added (on-disk size: 4391.4 KB)
+0303.418 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1100 files added (on-disk size: 4391.4 KB)
+0303.422 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1200 files added (on-disk size: 4391.4 KB)
+0303.427 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1300 files added (on-disk size: 4391.4 KB)
+0303.432 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1400 files added (on-disk size: 4391.4 KB)
+0303.437 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1500 files added (on-disk size: 4391.4 KB)
+0303.441 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1600 files added (on-disk size: 4391.4 KB)
+0303.446 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1700 files added (on-disk size: 4391.4 KB)
+0303.451 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1800 files added (on-disk size: 4391.4 KB)
+0303.455 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1900 files added (on-disk size: 4391.4 KB)
+0303.460 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2000 files added (on-disk size: 4391.4 KB)
+0303.461 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.6 MB, 12824 files batched, 1001 (1001) added so far); re-opening (prior size: 4391.4 KB)
+0351.785 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2100 files added (on-disk size: 10840.4 KB)
+0356.148 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 MB, 98 (1099) files added so far); re-opening (prior size: 10840.4 KB)
+0368.706 (1) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2200 files added (on-disk size: 11065.5 KB)
+0373.678 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 100 (1199) files added so far); re-opening (prior size: 11065.5 KB)
+0607.852 (2) Opened log file at time: Wed, 01 Mar 2023 00:55:42 +0000 on http://krrtshop.rf.gd
+0609.608 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.8 (apache2handler, Linux freeweb15.byetcluster.com 2.6.32-954.3.5.lve1.4.78.el6.x86_64 #1 SMP Thu Mar 26 08:20:27 EDT 2020 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 65.8M | 7M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+0611.376 (2) Free space on disk containing Updraft's temporary directory: Unknown
+0612.456 (2) Requesting backup semaphore lock (d25f0c7fa863)
+0613.908 (2) [Info] Lock (updraft_lock_d25f0c7fa863, wp_options) acquired
+0613.910 (2) Backup run: resumption=2, nonce=d25f0c7fa863, file_nonce=d25f0c7fa863 begun at=1677631534 (614s ago), job type=backup, previous check-in=80.79s
+0613.911 (2) Scheduling a resumption (3) after 300 seconds (1677632448) in case this run gets aborted
+0613.937 (2) Checking if we have a zip executable available
+0613.946 (2) Creation of backups of directories: had begun; will resume
+0613.949 (2) Beginning creation of dump of plugins (split every: 400 MB)
+0613.950 (2) File exists (/home/vol7_3/epizy.com/epiz_33450651/htdocs/wp-content/updraft/backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1677631918, time_now=1677632148, diff=230)
+0614.001 (2) backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: Zip file already exists, with 2201 files
+0614.558 (2) Total entities for the zip file: 2477 directories, 12824 files (0 skipped as non-modified), 128.1 MB
+0614.575 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 100 files added (on-disk size: 11198.4 KB)
+0614.576 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 200 files added (on-disk size: 11198.4 KB)
+0614.577 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 300 files added (on-disk size: 11198.4 KB)
+0614.578 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 400 files added (on-disk size: 11198.4 KB)
+0614.579 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 500 files added (on-disk size: 11198.4 KB)
+0614.580 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 600 files added (on-disk size: 11198.4 KB)
+0614.581 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 700 files added (on-disk size: 11198.4 KB)
+0614.582 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 800 files added (on-disk size: 11198.4 KB)
+0614.583 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 900 files added (on-disk size: 11198.4 KB)
+0614.584 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1000 files added (on-disk size: 11198.4 KB)
+0614.586 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1100 files added (on-disk size: 11198.4 KB)
+0614.596 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1200 files added (on-disk size: 11198.4 KB)
+0614.606 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1300 files added (on-disk size: 11198.4 KB)
+0614.607 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1400 files added (on-disk size: 11198.4 KB)
+0614.608 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1500 files added (on-disk size: 11198.4 KB)
+0614.609 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1600 files added (on-disk size: 11198.4 KB)
+0614.610 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1700 files added (on-disk size: 11198.4 KB)
+0614.611 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1800 files added (on-disk size: 11198.4 KB)
+0614.612 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 1900 files added (on-disk size: 11198.4 KB)
+0614.613 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2000 files added (on-disk size: 11198.4 KB)
+0614.615 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2100 files added (on-disk size: 11198.4 KB)
+0614.616 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2200 files added (on-disk size: 11198.4 KB)
+0614.628 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2300 files added (on-disk size: 11198.4 KB)
+0614.639 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2400 files added (on-disk size: 11198.4 KB)
+0614.649 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2500 files added (on-disk size: 11198.4 KB)
+0614.659 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2600 files added (on-disk size: 11198.4 KB)
+0614.669 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2700 files added (on-disk size: 11198.4 KB)
+0614.679 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2800 files added (on-disk size: 11198.4 KB)
+0614.689 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 2900 files added (on-disk size: 11198.4 KB)
+0614.694 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 3000 files added (on-disk size: 11198.4 KB)
+0614.708 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 3100 files added (on-disk size: 11198.4 KB)
+0614.718 (2) Zip: backup_2023-03-01-0045_KTApparel_d25f0c7fa863-plugins.zip.tmp: 3200 files added (on-disk size: 11198.4 KB)
+0614.719 (2) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.4 MB, 12824 files batched, 1001 (1001) added so far); re-opening (prior size: 11198.4 KB)
